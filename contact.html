@@ -124,12 +124,21 @@
       <!-- Setting a grid with 2 columns -->
       <div class="row g-5">
         <!-- Contact info section -->
-        <div class="col-sm-6 justify-content-center align-items-center">
-            <h2 class="mt-4 pt-4">Contact Info</h2>
-            <p class="mt-3 m-4">Farfett is a fashion brand that cares about both people and the environment. We believe in the trend of material positioning and positive environmental impact. We want each piece to tell a story and for you to enjoy wearing it.</p>
+        <div class="col-sm-6 justify-content-center align-items-center" id="send-us-email">
+          <h2 class="mt-4 pt-4">Contact Info</h2>
+          <!-- Adding Schema on the owner information. -->
+          <div class="m-5" itemscope itemtype="https://schema.org/Person">
+            <h5><span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">Address:</span></h5>
+              <span itemprop="streetAddress">123 Lees Road,</span>
+              <span itemprop="addressLocality">Ottawa,</span>
+              <span itemprop="addressCountry">Canada.</span>
+              <span itemprop="postalCode">A1B 2C3</span>
+            <h5 class="mt-3"><span itemprop="telephone">Phone:</span></h5> <span>+1 (470) 667 - 6382</span>
+            <h5 class="mt-3"><span itemprop="email">Customer Service:</span></h5> <span>cutomerservice@farfett.com</span>
+          </div>
         </div>
         <!-- Location section -->
-        <div class="col-sm-6 justify-content-center align-items-center">
+        <div class="col-sm-6 justify-content-center align-items-center" id="location">
           <h2 class="mt-4 pt-4">Location</h2>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944551804505!2d-75.75712548453915!3d45.34993154908199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1ses!2sca!4v1670830902339!5m2!1ses!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
@@ -152,15 +161,15 @@
           <div class="col-sm-3">
             <div class="about-us-menu">
               <h4>About Us</h4>
-              <a href="#"><p class="m-3">Who are We?</p></a>
-              <a href="#"><p class="m-3">Our Team</p></a>
+              <a href="about.html"><p class="m-3">Who are We?</p></a>
+              <a href="about.html"><p class="m-3">Our Team</p></a>
             </div>
           </div>
           <div class="col-sm-3">
             <div class="contact-us-menu">
               <h4>Contact Us</h4>
-                <a href="#"><p class="m-3">Send us an Email</p></a>
-                <a href="#"><p class="m-3">Address & Contact Info</p></a>
+                <a href="contact.html"><p class="m-3">Send us an Email</p></a>
+                <a href="contact.html"><p class="m-3">Address & Contact Info</p></a>
             </div>
           </div>
           <div class="col-sm-3">
@@ -175,12 +184,12 @@
         </div>
       </section>
       <!-- Icons menu section -->
-      <section class="container-fluid text-center mt-3 p-3" id="icons-footer-menu">
+      <section class="icons-footer container-fluid text-center mt-3 p-3" id="icons-footer-menu">
           <div class="justify-content-center d-flex link-footer">
               <a href="https://googlemaps.com"><img src="images/icons/icon-store.png" class="w-50" alt="store in the beach"></a>
               <a href="https://www.instagram.com"><img src="images/icons/icon-instagram.png" class="w-50" alt="instagram icon"></a>
               <a href="https://facebook.com"><img src="images/icons/icon-facebook.png" class="w-50" alt="facebook icon"></a>
-              <a href="https://bydanigonzalez.com"><img src="images/icons/icon-mail.png" class="w-50 pt-3" alt="mail-icon"></a>
+              <a href="https://bydanigonzalez.com"><img src="images/icons/icon-mail.png" class="w-50 pt-1" alt="mail-icon"></a>
           </div>
       </section>
       <!-- Copy-Right section -->

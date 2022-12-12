@@ -33,7 +33,12 @@
   background-repeat: no-repeat;
 }
 
-/* Modifying the colour of the icons */
+/* Modifying the colour of the icon that goes in the nav bar */
 .link-icons a i{
   color: var(--bs-link);
+}
+
+/* Setting the width of the icons/images that goes in the footer */
+.icons-footer img{
+  max-width: 80px;
 }
