@@ -53,7 +53,7 @@
             <a href="banner-info">Skip to Banner Info</a>
         </li>
         <li>
-            <a href="#">Skip to Products</a>
+            <a href="collection-section">Skip to Collections</a>
         </li>
     </ul>
     <header id="nav-bar">
@@ -102,12 +102,33 @@
     </header>
 
     <main>
-        <section class="banner" id="banner-info">
+        <!-- Banner Section for image banner and banner info -->
+        <section role="banner" class="banner" id="banner-info">
             <div class="container-fluid text-center p-5">
                 <h2 class="text-uppercase text-white fs-5 pt-5">Swimwear</h2>
                 <a role="button" type="button" class="btn btn-outline-secondary p-1 fs-6" href="#">Shop Now <i class="bi bi-caret-right"></i></a>
             </div>
-
+        </section>
+        <!-- Collection Section with 3 collection images -->
+        <section role="main" class="collections container-fluid text-center my-4" id="collection-section">
+            <!-- Setting a grid with 3 columns -->
+            <div class="row g-4">
+                <!-- Accesories section -->
+                <div class="col-sm-4">
+                    <img class="img-fluid w-100" src="images/accesories/accesories.png" alt="hat accesories in the beach">
+                    <a role="button" type="button" class="btn btn-outline-dark m-3 fs-6" href="#">Accesories <i class="bi bi-caret-right"></i></a>
+                </div>
+                <!-- Swimwear section -->
+                <div class="col-sm-4">
+                    <img class="img-fluid w-100" src="images/swimwear/swimwear.png">
+                    <a role="button" type="button" class="btn btn-outline-dark m-3 fs-6" href="#">Swimwear <i class="bi bi-caret-right"></i></a>
+                </div>
+                <!-- Ready to wear section -->
+                <div class="col-sm-4">
+                    <img class="img-fluid w-100" src="images/beachwear/beachwear.png">
+                    <a role="button" type="button" class="btn btn-outline-dark m-3 fs-6" href="#">BeachWear <i class="bi bi-caret-right"></i></a>
+                </div>
+            </div>
         </section>
     </main>
 
