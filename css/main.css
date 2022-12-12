@@ -8,9 +8,6 @@
   }
 
   /* Hidding the Skip Links */
-  a:focus{
-    outline: 2px solid black;
-  }
   .skip-links{
     list-style: none;
     margin: 0;
