@@ -41,7 +41,7 @@
                         <i class="bi bi-currency-dollar"></i>
                     </a>
                 </div>
-              <h1><a class="navbar-brand text-uppercase mx-4" href="#">Farfett</a></h1>
+              <h1><a class="navbar-brand text-uppercase mx-4" href="index.html">Farfett</a></h1>
               <div class="link-icons d-flex">
                     <a class="nav-link mx-4" href="#">
                         <i class="bi bi-search-heart-fill"></i>
@@ -57,7 +57,7 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav justify-content-center align-items-center me-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-4">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item mx-4">
                             <a class="nav-link" href="about.html">About Us</a>
@@ -115,24 +115,25 @@
         <section role="main" class="our-team container-md text-center my-4" id="our-team-section">
             <h2 class="m-5">Our Team</h2>
             <!-- Setting a grid with 3 columns -->
-            <div class="row g-5">
+            <!-- Adding Schema on the employee information. -->
+            <div itemscope itemtype="https://schema.org/Person" class="row g-5">
                 <!-- Daniela's section -->
                 <div class="col-sm-4">
                     <img class="img-fluid w-100 rounded-4" src="images/about-us/daniela.png" alt="picture of daniela as a portrait">
-                    <h3 class="mt-4">Daniela Gonzalez</h3>
-                    <p class="mt-3 m-4">Founder | Designer</p>
+                    <h3 class="mt-4"><span itemprop="name">Daniela Gonzalez</span></h3>
+                    <p class="mt-3 m-4"><span itemprop="jobTitle">Founder | Designer</span></p>
                 </div>
                 <!-- Juan's section -->
                 <div class="col-sm-4">
                     <img class="img-fluid w-100 rounded-4" src="images/about-us/juan.png" alt="picture of juan as a portrait">
-                    <h3 class="mt-4">Juan Atehortua</h3>
-                    <p class="mt-3 m-4">Co-Founder | RRHH</p>
+                    <h3 class="mt-4"><span itemprop="name">Juan Atehortua</span></h3>
+                    <p class="mt-3 m-4"><span itemprop="jobTitle">Co-Founder | RRHH</span></p>
                 </div>
                 <!-- Ashley's section -->
                 <div class="col-sm-4">
                     <img class="img-fluid w-100 rounded-4" src="images/about-us/ashley-torres.png" alt="picture of ashley as a portrait">
-                    <h3 class="mt-4">Ashley Torres</h3>
-                    <p class="mt-3 m-4">Photographer</p>
+                    <h3 class="mt-4"><span itemprop="name">Ashley Torres</span></h3>
+                    <p class="mt-3 m-4"><span itemprop="jobTitle">Photographer</span></p>
                 </div>
             </div>
         </section>
